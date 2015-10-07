@@ -4855,3 +4855,15 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	padding-top: 45px;
 	padding-bottom: 35px;
 }
+
+.after-about-separator {
+	margin-bottom: -68px;
+}
+
+.projects-contents {
+	padding-top: 0;
+}
+
+.less-top-padding-container {
+	padding-top: 45px;
+}
