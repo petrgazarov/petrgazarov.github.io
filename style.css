@@ -42,16 +42,16 @@ Author:		elemis
 	32. DIVIDERS
 	33. FONT ICON PAGES
 	34. RESPONSIVE
-	
-	font-family: 'Raleway', sans-serif;	
+
+	font-family: 'Raleway', sans-serif;
 	text: #606060
 	hover: #4aa2d1
 	headings: #404040
 	meta: #9a9a9a
 	light-wrapper background: #fcfcfc
 	dark-wrapper background: #f3f3f3
-	inverse-wrapper background: #262b2f	
-	
+	inverse-wrapper background: #262b2f
+
 -------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
 /*	00. RESET
@@ -89,7 +89,7 @@ iframe {
     background: #fefac7; /* Firefox */
     color: #2f2f2f;
 }
-@-webkit-keyframes rotation { 
+@-webkit-keyframes rotation {
 	from {
 	    -webkit-transform: rotate(0deg)
 	}
@@ -97,7 +97,7 @@ iframe {
 	    -webkit-transform: rotate(359deg)
 	}
 }
-@-moz-keyframes rotation { 
+@-moz-keyframes rotation {
 	from {
 	    -moz-transform: rotate(0deg)
 	}
@@ -105,7 +105,7 @@ iframe {
 	    -moz-transform: rotate(359deg)
 	}
 }
-@-o-keyframes rotation { 
+@-o-keyframes rotation {
 	from {
 	    -o-transform: rotate(0deg)
 	}
@@ -113,7 +113,7 @@ iframe {
 	    -o-transform: rotate(359deg)
 	}
 }
-@keyframes rotation { 
+@keyframes rotation {
 	from {
 	    transform: rotate(0deg)
 	}
@@ -1232,7 +1232,7 @@ footer ul.circled li:before {
 .row-no-padding .box-color::after {
     right: 10px;
     left: 10px;
-} 
+}
 .box-color::before {
     border-top: 1px solid rgba(255,255,255,0.6);
     border-bottom: 1px solid rgba(255,255,255,0.6);
@@ -4206,13 +4206,13 @@ footer .newsletter-wrapper .newsletter-form .btn {
 /*-----------------------------------------------------------------------------------*/
 /*	34. RESPONSIVE
 /*-----------------------------------------------------------------------------------*/
-@media (max-width: 1680px) { 
+@media (max-width: 1680px) {
 	.fullscreen-portfolio .isotope .item,
 	.fullscreen-portfolio .isotope .grid-sizer {
 	    width: 25%
 	}
 }
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 	.col-lg-height {
 	    display: table-cell;
 	    float: none !important;
@@ -4228,7 +4228,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	    opacity: 1
 	}
 }
-@media (min-width: 992px) and (max-width: 1199px) { 
+@media (min-width: 992px) and (max-width: 1199px) {
 	.masonry-portfolio .item {
 	    width: 25%;
 	    height: auto;
@@ -4244,7 +4244,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	    width: 33.3339%
 	}
 }
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.col-md-height {
 	    display: table-cell;
 	    float: none !important;
@@ -4263,7 +4263,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	.navbar.centered.light .navbar-collapse {
 		background: #f3f3f3;
 		border-top: 1px solid #e1e1e1 !important;
-	}	
+	}
 	.navbar.centered .navbar-header {
 		width: 100%;
 	}
@@ -4325,7 +4325,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	    top: 0;
 	    left: 100%;
 	    margin-left: 0;
-	    margin-top: -1px !important; 
+	    margin-top: -1px !important;
 	}
 	.dropdown-submenu>.dropdown-menu li {
 	    border-left: 1px solid rgba(255,255,255,0.07) !important
@@ -4416,7 +4416,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 		transition: all 200ms ease-in;
 	}
 }
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 	body:not(.onepage) .navbar.default,
 	body:not(.onepage) .navbar.fixed {
 	    position: relative
@@ -4575,12 +4575,12 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	    margin-top: 30px
 	}
 }
-@media (max-width: 969px) { 
+@media (max-width: 969px) {
 	.yamm .dropdown.yamm-fullwidth .dropdown-menu {
 	    width: 100%
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) { 
+@media (min-width: 768px) and (max-width: 991px) {
 	.container {
 	    padding-right: 15px;
 	    padding-left: 15px;
@@ -4612,7 +4612,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	    height: auto
 	}
 }
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 	.col-sm-height {
 	    display: table-cell;
 	    float: none !important;
@@ -4626,13 +4626,13 @@ footer .newsletter-wrapper .newsletter-form .btn {
 		padding-left: 15px;
 	}
 }
-@media (min-width: 768px) and (max-width: 991px) { 
+@media (min-width: 768px) and (max-width: 991px) {
 	.fullscreen-portfolio .isotope .item,
 	.fullscreen-portfolio .isotope .grid-sizer {
 	    width: 33.3339%
 	}
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.fullscreen-portfolio .isotope .item,
 	.fullscreen-portfolio .isotope .grid-sizer {
 	    width: 100%
@@ -4777,7 +4777,7 @@ footer .newsletter-wrapper .newsletter-form .btn {
 		margin: 20px 0 20px;
 	}
 }
-@media only screen and (max-width: 479px) { 
+@media only screen and (max-width: 479px) {
 	.testimonials .quote {
 	    padding: 0;
 	}
@@ -4796,4 +4796,62 @@ footer .newsletter-wrapper .newsletter-form .btn {
 	.testimonials .quote .box:before {
 	    display: none;
 	}
+}
+
+/*PETR - Custom Styles*/
+[class*="i-"] {
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	display: block;
+	margin: auto;
+}
+
+.skills-row {
+	padding-left: calc(17%);
+}
+
+.code-icon-description {
+	text-align: center;
+}
+
+.i-ruby {
+	background-image: url('style/images/ruby.png')
+}
+
+.i-rails {
+  background-image: url('style/images/rails.png')
+}
+
+.i-javascript {
+  background-image: url('style/images/javascript.png')
+}
+
+.i-jquery {
+  background-image: url('style/images/jquery.png')
+}
+
+.i-backbone {
+  background-image: url('style/images/backbone.png')
+}
+
+.i-git {
+  background-image: url('style/images/git.png')
+}
+
+.i-html5 {
+  background-image: url('style/images/HTML5.png')
+}
+
+.i-css {
+  background-image: url('style/images/css.png')
+}
+
+.i-postgresql {
+  background-image: url('style/images/postgresql.png')
+}
+
+.petr-footer {
+	padding-top: 45px;
+	padding-bottom: 35px;
 }
