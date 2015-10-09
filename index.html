@@ -13,6 +13,8 @@
 <link href="style/css/color/blue.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link href="style/type/icons.css" rel="stylesheet">
+
+<link rel="icon" href="data:;base64,=">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -56,7 +58,6 @@
 	            <h1 class="tp-caption main-title sfl petr-name" data-x="200" data-y="243" data-speed="600" data-start="500" data-endspeed="100" data-easing="Sine.easeOut">Hi, I'm Petr</h1>
 	            <div class="tp-caption lead sfl text-center petr-software-developer" data-x="110" data-y="317" data-speed="600" data-start="1000" data-endspeed="100" data-easing="Sine.easeOut">I'm a Software Developer in NYC</div>
 	          </li>
-
           </li>
 
 	        </ul>
@@ -110,9 +111,14 @@
               </div>
               <!-- /column -->
               <div class="col-sm-8">
-                <h2 class="post-title">Maildog</h2>
-                <p>Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna.</p>
+                <h2>Maildog</h2>
+                <p class='lead'>An email client inspired by Gmail</p>
+                <ul>
+                  <li>Featurs the ability for users to create, send, and organize emails.</li>
+                  <li>Uses custom routes to fetch only email threads requested, which improves responsiveness and UX.</li>
+                  <li>3rd party APIs used include Sendgrid and Pg-Search.</li>
+                  <li>
+                </ul>
                 <a href="http://www.maildog.xyz/" class="btn live-github-button">Live</a>
                 <a href="https://github.com/petrgazarov/Maildog" class="btn live-github-button">Github</a>
               </div>
@@ -122,13 +128,17 @@
             <!-- /.row -->
             <div class="row">
               <div class="col-sm-4">
-                <figure><img src="style/images/art/pp2-1.jpg" alt="" /> </figure>
+                <figure><img src="style/images/snake.png" alt="" /> </figure>
               </div>
               <!-- /column -->
               <div class="col-sm-8">
-                <h2 class="post-title">Snake</h2>
-                <p class='lead'>A console-based full-featured two-player chess game</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna.</p>
+                <h2>Snake</h2>
+                <p class='lead'>A browser version of the classic mobile game Snake</p>
+                <ul>
+                  <li>Interactive UI experience achieved through a combination of JQuery and CSS.</li>
+                  <li>Multiple difficulty levels with increasing speed.</li>
+                  <li>Dynamically updates score and games played counts.</li>
+                </ul>
                 <a href="http://petrgazarov.github.io/Snake/" class="btn">Live</a>
               <a href="https://github.com/petrgazarov/Snake" class="btn">Github</a>
              </div>
@@ -143,10 +153,12 @@
               </div>
               <!-- /column -->
               <div class="col-sm-8">
-                <h2 class="post-title">Chess</h2>
+                <h2>Chess</h2>
                 <p class='lead'>A console-based two-player chess game built in Ruby</p>
-                <p>Keyboard input support through Ruby's IO class</p>
-                <p>Multi-level class inheritance enables DRY code</p>
+                <ul>
+                  <li>Keyboard input support via io/console extension of Ruby's built-in IO class.</li>
+                  <li>Multi-level class inheritance DRYs up code.</li>
+                </ul>
                 <a href="https://github.com/petrgazarov/Chess" class="btn">Github</a> </div>
               <!-- /column -->
             </div>
@@ -213,13 +225,16 @@
             <p>CSS3</p>
           </div>
           <!--/column -->
+          <div class="col-sm-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+            <i class="i-rspec"></i>
+            <p>RSpec</p>
+          </div>
+          <!--/column -->
         </div>
         <!--/.row -->
       </div>
     </div>
   </div>
-
-
 
   <section id="contact">
     <div class="light-wrapper">

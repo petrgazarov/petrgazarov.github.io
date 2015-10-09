@@ -4851,6 +4851,10 @@ footer .newsletter-wrapper .newsletter-form .btn {
   background-image: url('style/images/postgresql.png')
 }
 
+.i-rspec {
+  background-image: url('style/images/rspec.png')
+}
+
 .petr-footer {
 	padding-top: 45px;
 	padding-bottom: 35px;
@@ -4870,7 +4874,4 @@ footer .newsletter-wrapper .newsletter-form .btn {
 
 .petr-name {
   font-weight: bold;
-}
-
-.petr-software-developer {
 }
