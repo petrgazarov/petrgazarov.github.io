@@ -4876,6 +4876,16 @@ footer .newsletter-wrapper .newsletter-form .btn {
   font-weight: bold;
 }
 
-.petr-about {
-  /*padding-left: 25%;*/
+.petr-contact-icon {
+  transition: 0.4s all;
+}
+
+.petr-contact-icon a {
+  width: 85px;
+  border-radius: 50%;
+}
+
+.petr-contact-icon a:hover {
+  opacity: .6;
+  cursor: pointer;
 }
