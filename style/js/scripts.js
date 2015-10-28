@@ -1,5 +1,5 @@
-(function($) { 
-"use strict"; 
+(function($) {
+"use strict";
 /*-----------------------------------------------------------------------------------*/
 /*	OWL CAROUSEL
 /*-----------------------------------------------------------------------------------*/
@@ -144,7 +144,7 @@ $('.blog-carousel').owlCarousel({
         }
     }
 });
-})(jQuery); 
+})(jQuery);
 /*-----------------------------------------------------------------------------------*/
 /*	LOADING
 /*-----------------------------------------------------------------------------------*/
@@ -152,12 +152,12 @@ $(window).load(function() {
         $(".carousel-wrapper:not(.wow)").css("visibility", "visible");
         $(".circle-progress-wrapper strong").css("visibility", "visible");
         $(".basic-carousel").css("visibility", "visible");
-        
+
         $('#status').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
         $('body').delay(350).css({
             'overflow': 'visible'
-        }); 
+        });
         /*-----------------------------------------------------------------------------------*/
 		/*	CIRCLE PROGRESS
 		/*-----------------------------------------------------------------------------------*/
@@ -175,9 +175,9 @@ $(window).load(function() {
 		        bar.setText((bar.value() * 100).toFixed(0));
 		    }
 		    });
-		
+
 		    circle1.animate(0.4);
-			
+
 			var circle2 = new ProgressBar.Circle('.circle.second', {
 		        color: '#53cfc2',
 		        trailColor: 'rgba(255,255,255,0.1)',
@@ -192,9 +192,9 @@ $(window).load(function() {
 		        bar.setText((bar.value() * 100).toFixed(0));
 		    }
 		    });
-		
+
 		    circle2.animate(0.8);
-		    
+
 		    var circle3 = new ProgressBar.Circle('.circle.third', {
 		        color: '#ef6578',
 		        trailColor: 'rgba(255,255,255,0.1)',
@@ -209,9 +209,9 @@ $(window).load(function() {
 		        bar.setText((bar.value() * 100).toFixed(0));
 		    }
 		    });
-		
+
 		    circle3.animate(0.34);
-		    
+
 		    var circle4 = new ProgressBar.Circle('.circle.fourth', {
 		        color: '#67b7d4',
 		        trailColor: 'rgba(255,255,255,0.1)',
@@ -226,7 +226,7 @@ $(window).load(function() {
 		        bar.setText((bar.value() * 100).toFixed(0));
 		    }
 		    });
-		
+
 		    circle4.animate(0.45);
 });
 $(document).ready(function() {
@@ -243,11 +243,11 @@ $(document).ready(function() {
 			        Minutes: { color: "#ef6578" },
 			        Seconds: { color: "#67b7d4" }
     			}
-	});	
+	});
 	$(window).resize(function(){
 		$('.countdown').TimeCircles().rebuild();
 	});
-	
+
 	/*-----------------------------------------------------------------------------------*/
 	/* WIDTH CLASS
 	/*-----------------------------------------------------------------------------------*/
@@ -685,7 +685,7 @@ $(function() {
     });
     $gridviewcol2.imagesLoaded(function() {
         $gridviewcol2.isotope('layout');
-    });    
+    });
     /*-----------------------------------------------------------------------------------*/
 	/*	SCROLL NAVIGATION HIGHLIGHT
 	/*-----------------------------------------------------------------------------------*/
@@ -709,14 +709,16 @@ $(function() {
             thisHref = $(this).attr('href');
             thisTruePosition = parseInt($(thisHref).offset().top, 10);
             thisPosition = thisTruePosition - headerWrapper - offsetTolerance;
-            if (scrollPosition >= thisPosition) {
+
+            if (scrollPosition >= thisPosition - 1) {
                 $('.current').removeClass('current');
                 $('.navbar ul a[href=' + thisHref + ']').parent('li').addClass('current');
             }
         });
         //If we're at the bottom of the page, move pointer to the last section
         bottomPage = parseInt($(document).height(), 10) - parseInt($(window).height(), 10);
-        if (scrollPosition == bottomPage || scrollPosition >= bottomPage) {
+
+        if (scrollPosition == bottomPage - 103 || scrollPosition >= bottomPage) {
             $('.current').removeClass('current');
             $('.onepage .navbar ul a:last').parent('li').addClass('current');
         }
